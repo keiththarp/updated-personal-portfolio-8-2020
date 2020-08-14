@@ -1,0 +1,40 @@
+body{
+  background-image: url("../assets/leafy-bg.jpg");
+  background-color: #dadada;
+}
+
+h1, h2 {
+  color: #d46426;
+}
+
+.nav-link {
+  color: #20546A;
+  font-weight: bold;
+  cursor: pointer;
+}
+span.active {
+  font-weight: normal;
+  color: #d46426;
+}
+
+.my-blue {
+  background-color: #20546A;
+}
+
+hr.my-hr {
+  background-color: #d46426;
+}
+
+.white-text {
+  color: white;
+}
+
+.orange-text {
+  color: #d46426;
+  font-size: 1.3em; 
+}
+
+div.hide-card {
+  display: none;
+}
+
