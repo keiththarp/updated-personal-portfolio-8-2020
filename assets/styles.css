@@ -1,3 +1,8 @@
+
+:root {
+  --animate-duration: 300ms;
+}
+
 body{
   background-image: url("../assets/leafy-bg.jpg");
   background-color: #dadada;
@@ -38,3 +43,24 @@ div.hide-card {
   display: none;
 }
 
+.contact-list li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.contact-list a {
+  color: white;
+  font-size: 1.2em;
+}
+img.contact-icon {
+  width: 35px;
+  margin-right: 15px;
+}
+
+img.portfolio-icon {
+  width: 20px;
+  margin: 0px 10px 5px 0px;
+}
+
+div.portfolio-card {
+  background-color: white;
+}

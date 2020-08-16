@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   <link rel="stylesheet" href="./assets/styles.css">
   <title>Keith Tharp - Full Stack Developer</title>
 </head>
@@ -41,24 +42,24 @@
 
   <!-- Begin main content below -->
   <div class="container pt-md-5">
-    <main class="my-blue">
+    <main>
 
       <!-- BEGIN About Card -->
-      <div id="about-card" class="row align-items-center mt-md-5 py-3 px-3">
+      <div id="about-card" class="row align-items-center mt-md-5 py-3 px-3 animate__animated my-blue">
         <!-- Bio container -->
         <article class="col-md-7 pt-2 mb-3">
           <h2 class="">ABOUT ME</h2>
           <hr class="my-hr" />
-          <p class="text-light">Co-owner of Kate & Keith Photography, catering to small weddings of adventurous couples
-            around the country and globe. Co-founder/ executive director of Sustainable Seacoast, a regional nonprofit
-            with the primary goal of eliminating single-use plastic from the local restaurant industry. I’ve enjoyed
-            learning coding on my own since I built my first website in 2004 with FrontPage using tables for my layout
-            #cringe. From owning a residential masonry company to being a multi-hat wearing director of marketing at a
-            large road race event company, I’ve found the excitement and challenge of creative problem solving has
-            always
-            been my biggest motivator. So, when presented with the opportunity to embark on a formalized Full-Stack web
-            development education, I jumped at the chance.
-          </p>
+          <p class="text-light">Full-stack web developer building on my marketing and entrepreneurial background to
+            create enjoyable web experiences.
+            Recently earned a certificate in full stack development from the University of New Hampshire, increasing my
+            HTML and CSS knowledge while adding JavaScript, React.js, and database systems.
+            As a developer I enjoy combining the creativity and problem solving that I bring from my past careers into
+            real solutions for clients and internet users.
+            I've worked in several great groups within all aspects of app development and recently completed a media app
+            that helps users log and save their media consumption.
+            Using API queries from multiple sources we save and display a user's selection in a cleanly designed single
+            page app.</p>
         </article>
 
         <!-- Image container -->
@@ -73,16 +74,96 @@
       <!-- *** -->
 
       <!-- BEGIN Contact Card -->
-      <div id="contact-card" class="hide-card">
-        <p>Contact content</p>
+      <div id="contact-card" class="hide-card row align-items-center mt-md-5 py-3 px-3 animate__animated my-blue">
+
+        <!-- Image container -->
+        <figure class="col-md-5">
+          <img class="mw-100 mh-100 border border-white rounded" src="assets/keith-tharp.jpg"
+            alt="Portrait of Keith Tharp" />
+        </figure>
+
+        <!-- Bio container -->
+        <article class="col-md-7 pt-2 mb-3">
+          <h2 class="">CONTACT DETAILS</h2>
+          <hr class="my-hr" />
+          <ul class="text-light contact-list">
+            <li><a><img class="contact-icon" src="./assets/mail.png" alt="email icon">KeithSTharp@gmail.com - I still
+                love email!</a>
+            </li>
+            <li><a href="https://github.com/keiththarp"><img class="contact-icon" src="./assets/github-icon.png"
+                  alt="github icon">View my repos on Github</a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/keithstharp/"><img class="contact-icon" src="./assets/linkedIn.png"
+                  alt="linkedIn icon">My LinkedIn profile</a>
+            </li>
+            <li><a href="https://twitter.com/KeithTharp"><img class="contact-icon" src="./assets/twitter.png"
+                  alt="twitter icon">Mostly environmental and social justice retweets</a>
+            </li>
+          </ul>
+        </article>
+
       </div>
       <!-- END Contact Card -->
 
       <!-- *** -->
 
       <!-- BEGIN Portfolio Card -->
-      <div id="portfolio-card" class="hide-card">
-        <p>Portfolio content</p>
+      <div id="portfolio-card" class="hide-card row align-items-center mt-md-5 animate__animated my-3 p-3 my-blue">
+
+        <!-- Individual Card -->
+        <div class="col col-md-6 col-lg-4">
+          <img src="./assets/og-quarantitles.jpg" class="card-img-top rounded-top" alt="Qrar'N'Titles promo image">
+          <div class="card-body portfolio-card">
+            <h5 class="card-title">Qrar'N'Titles</h5>
+            <p class="card-text">Designed to help users keep track of movies, tv shows, and books they've consumed
+              during COVID-19.</p>
+            <div>
+              <a href="https://keiththarp.github.io/Quar-N-Titles/"><img class="portfolio-icon"
+                  src="./assets/internet.png" alt="internet icon">Deployed App</a>
+            </div>
+            <div>
+              <a href="https://keiththarp.github.io/Quar-N-Titles/"><img class="portfolio-icon"
+                  src="./assets/github-icon.png" alt="github icon">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Individual Card -->
+        <div class="col col-md-6 col-lg-4">
+          <img src="./assets/SpeedQuiz-OpenGraph.jpg" class="card-img-top rounded-top" alt="Qrar'N'Titles promo image">
+          <div class="card-body portfolio-card">
+            <h5 class="card-title">SpeedQuiz</h5>
+            <p class="card-text">Test your basic JavaScript knowledge with SpeedQuiz, the stylish, responsive, fun for
+              the whole family coding quiz!</p>
+            <div>
+              <a href="https://keiththarp.github.io/javascript-speedquiz/"><img class="portfolio-icon"
+                  src="./assets/internet.png" alt="internet icon">Deployed App</a>
+            </div>
+            <div>
+              <a href="https://github.com/keiththarp/javascript-speedquiz"><img class="portfolio-icon"
+                  src="./assets/github-icon.png" alt="github icon">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Individual Card -->
+        <div class="col col-md-6 col-lg-4">
+          <img src="./assets/day-by-day-og.png" class="card-img-top rounded-top" alt="Qrar'N'Titles promo image">
+          <div class="card-body portfolio-card">
+            <h5 class="card-title">Day-By-Day</h5>
+            <p class="card-text">A lesson in presence, a day planner for the current day. No planning for tomorrow or
+              wasting time on the past.</p>
+            <div>
+              <a href="https://keiththarp.github.io/day-by-day-planner/"><img class="portfolio-icon"
+                  src="./assets/internet.png" alt="internet icon">Deployed App</a>
+            </div>
+            <div>
+              <a href="https://github.com/keiththarp/day-by-day-planner"><img class="portfolio-icon"
+                  src="./assets/github-icon.png" alt="github icon">GitHub Repo</a>
+            </div>
+          </div>
+        </div>
+
       </div>
       <!-- END Portfolio Card -->
 

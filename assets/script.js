@@ -8,6 +8,8 @@ navLink.on("click", function (event) {
   contactCard.addClass("hide-card");
   portfolioCard.addClass("hide-card");
   const link = `#${$(event.target).attr("id")}-card`;
-  $(link).removeClass("hide-card");
+  $(link).removeClass("hide-card").addClass("animate__zoomIn");
+
+
 
 });
