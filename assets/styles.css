@@ -64,3 +64,13 @@ img.portfolio-icon {
 div.portfolio-card {
   background-color: white;
 }
+
+p.resume {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+a.resume {
+  color: #d46426;
+}
