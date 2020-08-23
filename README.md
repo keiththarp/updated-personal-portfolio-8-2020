@@ -8,7 +8,7 @@ Cleaning up the first web dev portfolio project. Adding new projects and removin
 
 ![Keith Tharp Portfolio screencap](./assets/kt-portfolio-page.png)
 
-## Technologies Used to Create SpeedQuiz
+## Technologies Used this Portfolio Project
 * HTML
 * CSS
 * JavaScript
