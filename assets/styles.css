@@ -64,6 +64,9 @@ img.portfolio-icon {
 div.portfolio-card {
   background-color: white;
 }
+div.port-row {
+  margin-bottom: 20px;
+}
 
 p.resume {
   text-align: center;
